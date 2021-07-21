@@ -1,0 +1,66 @@
+#logo{
+    width: 50px;
+}
+.nav-item a{
+    font-size: 20px;
+    font-weight: 700;
+}
+#how:hover{
+    color: darkorange;
+}
+#hero{
+    margin-top: 8%;
+}
+#navbarlinks{
+    margin-left: 31%;
+}
+#sambar{
+    width: 70%;
+}
+#description{
+    font-weight: 600;
+    font-size: 20px;
+}
+#para{
+    margin-top: 6%;
+}
+#para p{
+    font-size: 20px;
+}
+#submit{
+    background-color: darkorange;
+}
+#footer{
+    padding: 2% 15%;
+    text-align: center;
+}
+.footer-txt{
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+}
+.social-media{
+    width: 3%;
+    margin-right: 15px;     
+    margin-top: 40px;
+}
+.social-media:hover{
+    width: 40px;
+}
+@media (max-width:500px){
+    #hero{
+        margin-top: 20%;
+    }
+    iframe{
+        width: 320px;
+        height: 250px;
+    }
+    .social-media{
+        width: 8%;
+    } 
+    .footer-txt{
+        font-size: 15px;
+    }
+    #navbarlinks{
+        margin-left: 1px;
+    }    
+}
